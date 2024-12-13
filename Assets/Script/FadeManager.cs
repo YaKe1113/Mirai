@@ -38,7 +38,7 @@ public class FadeManager : MonoBehaviour
 
     void FadeOut()
     {
-        alpha += 0.001f;
+        alpha += 0.0006f;
         fadealpha.color = new Color(0, 0, 0, alpha);
         if (alpha >= 1)
         {
