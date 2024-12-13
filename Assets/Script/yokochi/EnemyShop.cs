@@ -15,7 +15,7 @@ public class EnemyShop : MonoBehaviour
     void FixedUpdate()
     {
         count++;
-        if (count > cooltime)
+        if (/*count > cooltime*/Input.GetKey(KeyCode.Space))
         { // cooltime分時間が経ったら
             count = 0;
             GameObject[] humanObjects = GameObject.FindGameObjectsWithTag("Human");     // 存在するHumanタグを持っているオブジェクトを配列に格納
