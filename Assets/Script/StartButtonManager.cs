@@ -11,25 +11,25 @@ public class StartButtonManager : MonoBehaviour
     //    //SceneManager.LoadScene("Game");
     //}
 
-    public float speed = 1.0f;
-    private Image image;
-    private float time;
+    //public float speed = 1.0f;
+    //private Image image;
+    //private float time;
 
-    void Start()
-    {
-        image = this.gameObject.GetComponent<Image>();
-    }
+    //void Start()
+    //{
+    //    image = this.gameObject.GetComponent<Image>();
+    //}
 
-    void Update()
-    {
-        image.color = GetAlphaColor(image.color);
-    }
+    //void Update()
+    //{
+    //    image.color = GetAlphaColor(image.color);
+    //}
 
-    Color GetAlphaColor(Color color)
-    {
-        time += Time.deltaTime * 5.0f * speed;
-        color.a = Mathf.Sin(time);
+    //Color GetAlphaColor(Color color)
+    //{
+    //    time += Time.deltaTime * 5.0f * speed;
+    //    color.a = Mathf.Sin(time);
 
-        return color;
-    }
+    //    return color;
+    //}
 }

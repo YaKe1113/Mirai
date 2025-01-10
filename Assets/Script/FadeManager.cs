@@ -45,7 +45,5 @@ public class FadeManager : MonoBehaviour
             fadeout = false;
             SceneManager.LoadScene("Game");
         }
-
-
     }
 }
